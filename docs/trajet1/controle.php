@@ -61,6 +61,7 @@ if (isset($_POST["answer"])) {
     echo "<form method='post'>
         <input type='text' name='answer'>
         <input type='submit' value='Submit'>
-    </form>";
+    </form><br>";
+    echo "<br><a href='opniew.php'>Opniew</a>";
 }
 ?>
